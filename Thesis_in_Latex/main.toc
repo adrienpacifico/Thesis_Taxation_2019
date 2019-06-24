@@ -1,0 +1,125 @@
+\gdef \the@ipfilectr {@-1}
+\contentsline {chapter}{Remerciements}{iv}{chapter*.1}
+\babel@toc {french}{}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e} en fran\IeC {\c c}ais}{vi}{chapter*.2}
+\babel@toc {english}{}
+\contentsline {chapter}{Summary in English}{vii}{chapter*.3}
+\babel@toc {french}{}
+\babel@toc {french}{}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\contentsline {chapter}{Introduction}{1}{chapter*.7}
+\contentsline {paragraph}{Transparence de la vie publique}{1}{section*.8}
+\contentsline {subsubsection}{Solutions \IeC {\`a} la complexit\IeC {\'e}}{5}{section*.9}
+\contentsline {paragraph}{Ouverture des simulateurs}{6}{section*.10}
+\contentsline {paragraph}{L'imp\IeC {\^o}t au sens large}{8}{section*.11}
+\contentsline {subsubsection}{Les donn\IeC {\'e}es}{9}{section*.12}
+\contentsline {paragraph}{Acc\IeC {\`e}s aux donn\IeC {\'e}es via le CASD}{10}{section*.13}
+\contentsline {paragraph}{V\IeC {\'e}rification des sc\IeC {\'e}narios (et impacts comportementaux\ldots )}{11}{section*.14}
+\contentsline {paragraph}{Validation des donn\IeC {\'e}es}{13}{section*.15}
+\contentsline {paragraph}{De l'importance de microsimulateurs libres avec des outils libres menant \IeC {\`a} un possible outil unifi\IeC {\'e}}{14}{section*.16}
+\contentsline {paragraph}{Au sujet de la reproductibilit\IeC {\'e} en \IeC {\'e}conomie, et en \IeC {\'e}conomie de la taxation.}{14}{section*.17}
+\contentsline {section}{Les trois chapitres de la th\IeC {\`e}se}{17}{section*.18}
+\contentsline {subsection}{\numberline {0.1}La temporalit\IeC {\'e} du syst\IeC {\`e}me socio-fiscal}{17}{subsection.0.0.1}
+\contentsline {subsection}{\numberline {0.2}Coop\IeC {\'e}ration au sein des couples de cohabitant}{18}{subsection.0.0.2}
+\contentsline {subsection}{\numberline {0.3}L'abaissement du quotient familial}{19}{subsection.0.0.3}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{\numberline {1}Monthly Income Tax Frequency:Theoretical and Empirical Investigations}{21}{chapter.1}
+\babel@toc {english}{}
+\gdef \the@ipfilectr {@-3}
+\contentsline {section}{\numberline {1}Introduction}{23}{section.1.1}
+\contentsline {section}{\numberline {2}Theory}{27}{section.1.2}
+\contentsline {subsection}{\numberline {2.1}Framework}{28}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {2.2}Five within-year tax payments}{29}{subsection.1.2.2}
+\contentsline {paragraph}{Current payment}{29}{section*.20}
+\contentsline {paragraph}{Cumulated Averaging Tax}{29}{section*.21}
+\contentsline {paragraph}{Equal Payment Regime}{30}{section*.22}
+\contentsline {paragraph}{Monthly Tax}{30}{section*.23}
+\contentsline {paragraph}{Monthly Compensated Tax}{30}{section*.24}
+\contentsline {subsection}{\numberline {2.3}Comparison of well-being for the tax regimes}{31}{subsection.1.2.3}
+\contentsline {paragraph}{Monthly compensated versus equal payment\vspace \medskipamount }{31}{section*.26}
+\contentsline {paragraph}{Monthly compensated versus current system}{34}{section*.28}
+\contentsline {paragraph}{Vickrey versus Monthly compensated}{34}{section*.29}
+\contentsline {subparagraph}{Two sub-periods}{35}{section*.30}
+\contentsline {subparagraph}{Three sub-periods}{35}{section*.31}
+\contentsline {subsection}{\numberline {2.4}Discussion}{38}{subsection.1.2.4}
+\contentsline {paragraph}{Borrowing and saving}{38}{section*.32}
+\contentsline {paragraph}{Labor supply}{39}{section*.33}
+\contentsline {paragraph}{Negative income tax}{40}{section*.34}
+\contentsline {paragraph}{Convexity}{41}{section*.35}
+\contentsline {paragraph}{Implementation}{41}{section*.36}
+\contentsline {section}{\numberline {3}Data \& French tax system}{42}{section.1.3}
+\contentsline {subsection}{\numberline {3.1}Tax Schedules: From theory to practice}{42}{subsection.1.3.1}
+\contentsline {paragraph}{Piecewise linear tax scheme}{42}{section*.37}
+\contentsline {paragraph}{France tax system}{43}{section*.38}
+\contentsline {paragraph}{External Validity}{45}{section*.41}
+\contentsline {subsection}{\numberline {3.2}Descriptive statistics}{48}{subsection.1.3.2}
+\contentsline {paragraph}{Income Distribution and Variations Over Months}{48}{figure.caption.45}
+\contentsline {section}{\numberline {4}Simulations}{54}{section.1.4}
+\contentsline {paragraph}{Simulation Hypothesis}{54}{section*.52}
+\contentsline {paragraph}{Winner/Losers.}{56}{figure.caption.55}
+\contentsline {paragraph}{Welfare Analysis.}{56}{section*.56}
+\contentsline {paragraph}{Comparison with Vickrey tax scheme}{57}{section*.58}
+\contentsline {section}{\numberline {5}Conclusion}{59}{section.1.5}
+\contentsline {section}{References}{61}{section.1.5}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{\numberline {2}A Direct Measure of Inefficiency within Couples}{63}{chapter.2}
+\babel@toc {english}{}
+\gdef \the@ipfilectr {@-4}
+\contentsline {section}{\numberline {1}Introduction}{64}{section.2.1}
+\contentsline {section}{\numberline {2}Empirical Approach}{67}{section.2.2}
+\contentsline {subsection}{\numberline {2.1}Data}{67}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Tax Rules and Simulations}{68}{subsection.2.2.2}
+\contentsline {section}{\numberline {3}Conceptual Background and Potential Channels}{71}{section.2.3}
+\contentsline {section}{\numberline {4}Results}{74}{section.2.4}
+\contentsline {subsection}{\numberline {4.1}Main Results}{74}{subsection.2.4.1}
+\contentsline {paragraph}{Inefficiency rates.}{74}{section*.64}
+\contentsline {paragraph}{Patterns of inefficiency. }{78}{section*.67}
+\contentsline {paragraph}{Profile of the non-optimizers. }{78}{section*.68}
+\contentsline {subsection}{\numberline {4.2}Transition patterns, Learning and Inertia. }{81}{subsection.2.4.2}
+\contentsline {section}{\numberline {5}Noncooperation}{83}{section.2.5}
+\contentsline {section}{\numberline {6}Conclusion}{85}{section.2.6}
+\contentsline {section}{References}{87}{section.2.6}
+\contentsline {chapter}{Appendices}{90}{chapter*.73}
+\contentsline {section}{\numberline {2.A}Descriptive Statistics}{90}{section.a.2.A}
+\contentsline {section}{\numberline {2.B}Distribution of Optimal Allocations by Family Size}{91}{section.a.2.B}
+\contentsline {section}{\numberline {2.C}Marital Status Change and Large Non-Optimization}{92}{section.a.2.C}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{\numberline {3}{\sc Rich households taxable income and lowerings of the child tax break ceiling: \\ \relax \fontsize {17.28}{22}\selectfont {A French natural experiment.}}}{93}{chapter.3}
+\babel@toc {english}{}
+\gdef \the@ipfilectr {@-5}
+\contentsline {section}{\numberline {1}Introduction}{95}{section.3.1}
+\contentsline {section}{\numberline {2}Institutional Background}{100}{section.3.2}
+\contentsline {paragraph}{The family ratio scheme}{100}{section*.77}
+\contentsline {paragraph}{Fiscal gain to children: }{102}{section*.80}
+\contentsline {section}{\numberline {3}Empirical Approach:}{107}{section.3.3}
+\contentsline {subsection}{\numberline {3.1}Data-Selection}{108}{subsection.3.3.1}
+\contentsline {paragraph}{Income Span}{108}{section*.87}
+\contentsline {subsection}{\numberline {3.2}Tax base and tax computation}{110}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3}Descriptive Statistics}{111}{subsection.3.3.3}
+\contentsline {paragraph}{Marginal Tax Rates: }{111}{section*.90}
+\contentsline {subsection}{\numberline {3.4}Identification Strategy}{113}{subsection.3.3.4}
+\contentsline {paragraph}{A difference-in-difference}{113}{section*.93}
+\contentsline {paragraph}{Back to our case,}{114}{section*.94}
+\contentsline {paragraph}{Flatten Thresholds:}{116}{section*.95}
+\contentsline {section}{\numberline {4}Results: }{117}{section.3.4}
+\contentsline {paragraph}{Triple Diff:}{117}{section*.96}
+\contentsline {paragraph}{The effect of being over the 2011 threshold:}{119}{section*.98}
+\contentsline {paragraph}{The effect of being between the two thresholds:}{119}{section*.99}
+\contentsline {paragraph}{By sex and type of income}{121}{section*.100}
+\contentsline {subsection}{\numberline {4.1}Behavioral reactions on the extensive margin:}{122}{subsection.3.4.1}
+\contentsline {section}{\numberline {5}Conclusion}{124}{section.3.5}
+\contentsline {chapter}{Appendices}{126}{chapter*.104}
+\contentsline {section}{\numberline {3.A}Alternative specifications}{126}{section.b.3.A}
+\contentsline {section}{\numberline {3.B}Common trend assumption and income dynamic}{128}{section.b.3.B}
+\contentsline {section}{\numberline {3.C}Retirement pension reform}{129}{section.b.3.C}
+\contentsline {section}{\numberline {3.D}Both parents working}{133}{section.b.3.D}
+\contentsline {paragraph}{Double Differences:}{134}{section*.111}
+\contentsline {section}{\numberline {3.E}Loss in precentage of disposable income.}{136}{section.b.3.E}
+\contentsline {section}{\numberline {3.F}Extensive margins, probability linear models:}{136}{section.b.3.F}
+\contentsline {section}{References}{139}{table.caption.114}
+\contentsline {chapter}{Conclusion}{141}{chapter*.116}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {section}{\numberline {7}Softwares:}{142}{section.3.7}
+\gdef \the@ipfilectr {}

@@ -1,0 +1,193 @@
+\pdfobjcompresslevel 0
+\documentclass[a4paper, 12pt]{report}
+
+
+%
+%%\usepackage{comment} % Permet de compiler sans les figures et sans les tables
+%%\excludecomment{figure}
+%%\let\endfigure\relax
+%%\excludecomment{table}
+%%\let\endtable\relax
+
+%\usepackage{refcheck} %permet de voir les refs du bib non cit�es
+
+\setlength{\parindent}{0pt} %get rid of indentation in the article
+\usepackage{etoolbox} % prevent a Patching '\begin' failed! see https://tex.stackexchange.com/questions/128938/package-etoolbox-warning-patching-begin-failed
+%\usepackage{natbib} % pour bibtex \citep (parenthetical) et \citet (textual) (sinon seul \cite marche) a loader avant babel
+\usepackage[semicolon,round,sort&compress,sectionbib]{natbib}  %
+\usepackage{chapterbib}      
+\usepackage[english, french]{babel} %Fran�ais à loader avant caption
+\usepackage[T1]{fontenc}
+
+  \usepackage{adjustbox}
+\usepackage[affil-it]{authblk} %for affiliation
+\usepackage{afterpage} % To include blanck page with command \afterpage{\blankpage}
+\usepackage{appendix}
+
+\usepackage{array} %pour les tableaux
+\usepackage{amsmath, amssymb} %american mathematical society math style and symbols (amssymb)
+\usepackage{amsthm}
+\usepackage{blindtext}
+\usepackage{booktabs}
+\usepackage{breqn} % allow to use dmath environment (automatic break for equations, etc) 
+\usepackage{caption} % Needed to jump line in figures titles (caption).
+%\usepackage{commath} sais pas pourquoi �a marche pas si je charge �a plante !
+
+\usepackage{dirtytalk} % quote stuff with \say{the text to quote}
+\usepackage{empheq} %
+\usepackage[official]{eurosym}  %type \euro{} to print a euro
+\usepackage{float} % for firgure placement with H option
+\usepackage{fancybox}
+
+  \usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+  \usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{graphicx} %pour ins�rer des images.
+ \usepackage[hyperindex=true,
+ 		     colorlinks=true, 
+		     urlcolor=blue,
+		     citecolor    = blue, %Couleur des citations (biblio)
+    		     linkcolor    = blue, %Couleur des équations. Apparemment, cela sert aussi pour théoreme, Lemme...
+ 					 ]{hyperref} %permet de mettre des hyper liens (le package url le fait tout seul ? la base)
+
+\usepackage{import}					 
+
+
+
+\usepackage{pdflscape}
+\usepackage{pdfpages} %allow to select which pdf pages to compile \includepdf[pages={12-15,23,45-49}]{main.pdf} 
+\usepackage{spverbatim}
+\usepackage{lmodern}%change un peu les lettres pour un truc plus cool, marche peut �tre un peu mieux avec les accents v�rifier � l'occaz
+\usepackage{mathrsfs} % allows $\mathscr{ABC}$ to work
+\usepackage{setspace} % permet de d�terminer une largeur d'interligne
+\usepackage{tikz} % draw graphs
+\usetikzlibrary{trees,shapes,snakes}
+  \usepackage{subcaption} % to use with subfigures
+\usepackage{skull}
+\usepackage{url}
+\usepackage{verbatim} %Pour ins�rer du code informatique
+
+\usepackage{fancyvrb}
+\usepackage{fvextra}
+
+\usepackage{array} %one of the two needed to use thead to break line in tabular
+\usepackage{makecell} %one of the two needed to use thead to break line in tabular
+
+\DeclareUnicodeCharacter{20AC}{\euro{}}
+\DeclareUnicodeCharacter{2212}{-}
+\DeclareUnicodeCharacter{300}{`}
+\DeclareUnicodeCharacter{301}{'}
+
+  \newcommand{\hdrule}{\midrule[\heavyrulewidth]}
+
+\newsavebox{\mybox}
+
+\newcommand{\raisedshadowbox}[1]{%
+\sbox\mybox{\shadowbox{#1}}%
+\raisebox{-0.5\ht\mybox-0.5\shadowsize+0.6ex}{\usebox\mybox}%
+}
+%%%%%
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+\bibliographystyle{chicagoa}
+
+
+%%%%%%%%%%%%%%%%
+%%%Fin biblio %%%%%%%%
+
+
+
+%%%%Elispse in tables%%%%%%
+\usepackage{tikz}
+\usetikzlibrary{fit,shapes.misc}
+\newcommand\marktopleft[1]{%
+    \tikz[overlay,remember picture] 
+        \node (marker-#1-a) at (0,-1ex) {};%
+}
+\newcommand\markElipseBottomright[1]{%
+    \tikz[overlay,remember picture] 
+        \node (marker-#1-b) at (0.2,0.3) {};%
+    \tikz[overlay,remember picture,thick,dashed,inner sep=3pt]
+        \node[draw, ellipse,fit=(marker-#1-a.center) (marker-#1-b.center)] {};%
+}
+%%%%End Elispse in tables%%%%%%
+
+
+
+
+
+
+%%%%Squares in tables%%%%%%
+\newcommand\markRectangletopleft[1]{%
+    \tikz[overlay,remember picture] 
+        \node (marker-#1-a) at (0,1.5ex) {};%
+}
+\newcommand\markRectanglebottomright[1]{%
+    \tikz[overlay,remember picture] 
+        \node (marker-#1-b) at (0,0) {};%
+    \tikz[overlay,remember picture,thick,dashed,inner sep=3pt]
+        \node[draw,rounded rectangle,fit=(marker-#1-a.center) (marker-#1-b.center)] {};%
+}
+%%%%Squares Circles in tables%%%%%%
+
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+
+
+
+\DeclareMathOperator\erf{erf}
+
+
+\providecommand{\U}[1]{\protect\rule{.1in}{.1in}}
+%EndMSIPreambleData
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+%\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+%\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+
+
+\usepackage{fancyhdr}
+
+\usepackage{minitoc} % table of contents should be loaded after hyperef and other packages
+\usepackage{silence}
+
+
+%%%%% Mute minitoc warnings see https://tex.stackexchange.com/questions/166910/what-are-these-warnings-for-minitoc-package
+\WarningFilter{minitoc(hints)}{W0023}
+\WarningFilter{minitoc(hints)}{W0024}
+\WarningFilter{minitoc(hints)}{W0028}
+\WarningFilter{minitoc(hints)}{W0030}
+\WarningFilter{blindtext}{} % this takes care of the `blindtext` messages
+
+\usepackage{grffile}
+
+\graphicspath{{}}
+
+\frenchbsetup{ShowOptions} 
+
+\Urlmuskip=0mu  plus 10mu  %Solver Overfull \hbox for url links (see https://tex.stackexchange.com/questions/339682/how-to-really-solve-the-problem-of-underfull-hbox-when-typesetting-url-in-f)

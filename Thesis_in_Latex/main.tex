@@ -1,0 +1,212 @@
+%%
+%% Thèse manuscrit 
+%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Initialisation				%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\input{./package_and_commands/packages}
+\input{./package_and_commands/CommandesPerso}	% Commandes et environnements perso
+\usepackage{fancyhdr}
+\newcommand{\isEmbedded}{true}
+
+
+%%%%%%%% Liste des fichiers à compiler %%%%%%%%
+% Par default : tous
+%\includeonly{Introduction}
+
+\usepackage{appendix}  %Pour les appendix
+\usepackage{chngcntr}
+\usepackage{etoolbox}
+
+
+\AtBeginEnvironment{subappendices}{%
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendices}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+}
+\begin{document}
+
+\hypersetup{	
+    pdfauthor={Adrien Pacifico},
+    pdfsubject={Manuscrit thèse},
+    pdftitle={XX},
+}
+
+
+\doparttoc[c]
+\mtcsetfeature{parttoc}{open}{\vspace{-2cm}}
+\tightmtctrue
+\setcounter{parttocdepth}{2}
+
+%%%%%%%%%%%%%%%%% Préambule %%%%%%%%%%%%%%%%%
+ 
+\pagenumbering{roman}
+%l'EHESS ne veut que sa page de couverture violette
+%\includefrom{../0_Preambule/}{Preambule_ehess}	
+\selectlanguage{french} 
+\includefrom{./00_preambule/}{Preambule}	
+
+\cleardoublepage
+
+% %%%%%%%%%%%%%%%%% Introduction %%%%%%%%%%%%%%%%%
+ \pagenumbering{arabic}
+% % Introduction 
+ \renewcommand*\thesection{\arabic{section}}
+
+\includefrom{./01_Introduction/}{introduction}
+
+
+\chapter[Monthly Income Tax Frequency:Theoretical and Empirical Investigations]{Monthly Income Tax Frequency:\\
+Theoretical and Empirical Investigations\raisebox{.3\baselineskip}{\normalsize\footnotemark}}
+\footnotetext{This chapter is a collaboration with Olivier Bargain \& Alain Trannoy}
+\selectlanguage{english}
+\graphicspath{{./1_Tax_Frequency/figures/}}
+\includefrom{./1_Tax_Frequency/}{tax_frequency}	
+
+
+\chapter[A Direct Measure of Inefficiency within Couples]{A Direct Measure of Inefficiency within Couples:
+Tax Optimization in French cohabiting couples\raisebox{.3\baselineskip}{\normalsize\footnotemark}}
+\footnotetext{This chapter is a collaboration with Olivier Bargain, Damien Echevin  \& Nicolas Moreau}
+\selectlanguage{english}
+\graphicspath{{./2_Cohabiting_couples/figures/}}
+\includefrom{./2_Cohabiting_couples/}{cohabiting_couples}	
+
+% \chapter{hello
+\chapter{{\sc Rich households taxable income and lowerings of the child tax
+break ceiling: \\ \Large{A French natural experiment.}}}
+\selectlanguage{english}
+\graphicspath{{./3_QF_lowering/figures/}}
+\includefrom{./3_QF_lowering/}{qf_lowering}	
+\includefrom{./Divers/softwares/}{softwares}
+
+
+%
+% \fancyhead{}
+% \fancyhead[LE]{\textsc{Main introduction}}
+% \fancyhead[RO]{\textsc{Main introduction}}
+% \includefrom{../1_Introduction/}{introduction}	
+% \fancyhead{}
+
+% \setcounter{chapter}{0}
+
+
+
+% %%%%%%%%%%%%%%%%% Partie I %%%%%%%%%%%%%%%%%
+% \part[\textsc{Your title of part 1}]
+% {\textsc{Your title of part 1}}
+% 	\fancyhead[LE]{\textsc{Partie I -- Entête de la partie I}} % Entete partie I
+
+% This part is dedicated to the study of the redistributive impact of the French tax-and-benefit system. The main focus of this part is methodological. It consists in presenting the microsimulation technique used for describing the distributional impact of taxation. 
+
+% Chapter~\ref{chapter1} offers an introduction to the microsimulation method and its contribution to the analyses of the redistributive impact of the tax-and-benefit system. For that purpose, I present a microsimulation model of French tax revenues. This model simulates French tax revenues based on a representative sample of the French population. Its first feature is to provide a detailed distribution of top incomes, some of them being imputed. Secondly, the aggregated individual level characteristics are consistent with national account. The model decomposes at the micro-level the whole scope of tax revenues as defined in the national accounts. This enables to provide detailed redistributive analyses of fiscal reforms, including at the top at the income distribution. The chapter discusses as well the limitation of this approach. Indeed, the underlying incidence assumption as well as the absence of consistency between aggregate sources can affect the results. 
+
+% Chapter~\ref{chapter2} provides an example of policy evaluation relying on microsimulation. 
+% It analyses the impact of the post-2008 crisis political responses in France. It encompasses both a macro and a micro analyses, relying on the study of documents associated to the Budget Laws and on the microsimulation model. 
+% The study reveals that the decrease in public spending was used as the main political channel of response although no systemic reform of the organization of spending was achieved.\\
+
+% \mtcsettitle{parttoc}{\textsc{Outline of part I}}
+% \noptcrule  
+% %\parttoc
+
+% %%% Chapitre 1 %%%
+% 	\selectlanguage{french} 
+% 	\fancyhead{}
+% 	\fancyhead[LE]{\textsc{Partie I -- Entête de la partie I}} % Entete partie I
+% 	\fancyhead[RO]{\textsc{Chapitre 1-- Entête du chaptitre 1}} % Entete chapitre 1
+
+
+
+% 	\fancyhead{}
+% %%% Chapitre 2 %%%	
+% \selectlanguage{english} 
+% 	\fancyhead{}
+% 	\fancyhead[LE]{\textsc{Part I -- The short title of part I}} % Entete partie I
+% 	\fancyhead[RO]{\textsc{Chapter 2-- The title of chapter 2}} % Entete chapitre 2
+% 	\includefrom{../2_Partie1/2_chapter2/}{chapter2}
+% 	\fancyhead{}
+		
+
+% \renewcommand{\partname}{}
+% 	\part*{}
+
+% %%%%%%%%%%%%%%%%% Partie II %%%%%%%%%%%%%%%%%
+% \selectlanguage{english} 
+% %\part{\textsc{Primary inequality and redistribution through employer Social Security contributions: France 1976-2010}} 
+% \part[\textsc{Your title of part II}]{\textsc{Your title of part II}}
+
+% \mtcsettitle{parttoc}{\textsc{Outline of part II}}
+% \noptcrule  
+% %\parttoc
+
+% This second part focuses on the taxation of labour incomes and rests upon the methodology presented in the first part. The questions and the methods tackled by this part are at the intersection of the public finance and the labour economics literature. Chapter~\ref{chapter3} studies the overall wage distribution whereas chapter~\ref{chapter4} focuses on the very top wages (top 0.003\% of the distribution, about 1500 individuals). These two chapters are complementary in the sense that the first one focuses on the long term evolution of taxation and labour inequality of the broad wage distribution whereas the second chapter is centred on top 0.01\% of the same distribution.\\
+
+
+% 	%%% Chapitre 3 %%%
+% 	\fancyhead{}
+% 	\fancyhead[LE]{\textsc{Part II -- The short title of part II}} % Entete partie II
+% 	\fancyhead[RO]{\textsc{Chapter 3-- The title of chapter 3}} % Entete chapitre 3
+% 	\includefrom{../3_Partie2/1_chapter3/}{chapter3}	
+% 	\fancyhead{}
+	
+% 	%\renewcommand{\chaptername}{Lecture}
+% %\part[\textsc{Focus on top labour incomes}]{\textsc{Focus on top labour incomes}}
+
+% 	%%% Chapitre 4 %%%
+% 	\fancyhead{}
+% 	\fancyhead[LE]{\textsc{Part II -- The short title of part II}} % Entte partie II
+% 	\fancyhead[RO]{\textsc{Chapitre 4-- The title of chapter 4}} % Entete chapitre 4
+% 	\includefrom{../3_Partie2/1_chapter4/}{chapter4}	
+% 	\fancyhead{}
+	
+% 	%\addcontentsline{toc}{part}{}
+
+
+% %%%%%%%%%%%%%% Conclusion %%%%%%%%%%%%%%
+% \cleardoublepage 
+% \fancyhead{}
+% \makeatletter
+% \renewcommand*{\toclevel@chapter}{-1}
+
+% \fancyhead[LO]{\textsc{Main conclusion}}
+% \fancyhead[RE]{\textsc{Main conclusion}}
+% \includefrom{../4_Conclusion/}{conclusion}	
+
+% \fancyhead{}
+
+% %%%%%%%%%%%%% Biblio  %%%%%%%%%%%%%%%%%
+% \fancyhead{}
+% \fancyhead[LO]{\textsc{References}}
+% \fancyhead[RE]{\textsc{References}}
+% \bibliographystyle{../Divers/myagsm}
+% \addcontentsline{toc}{chapter}{{References}}
+% \renewcommand\bibname{References}
+% \bibliography{../Divers/biblio_these_v3}
+
+% \fancyhead{}
+
+
+% %%% Glossaire, liste des tables et graphiques, et résumé %%%
+% \renewcommand*\listfigurename{}
+% \renewcommand*\listtablename{}
+
+
+% \chapter*{List of tables}
+% \fancyhead{} \rhead[]{\textsl{List of tables}} \lhead[\textsl{List of tables}]{}
+% \listoftables \addcontentsline{toc}{chapter}{{\sl List of tables}}
+% \chapter*{List of figures}
+% \fancyhead{} \rhead[]{\textsl{List of figures}} \lhead[\textsl{List of figures}]{}
+% \listoffigures \addcontentsline{toc}{chapter}{{\sl List of figures}}
+
+
+% \renewcommand*{\toclevel@chapter}{0}
+% \makeatother
+% \cleardoublepage
+
+\end{document}
+
+
+
+

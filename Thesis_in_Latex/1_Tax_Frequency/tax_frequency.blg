@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: tax_frequency.aux
+The style file: chicagoa.bst
+Database file #1: tax_frequency.bib
+Warning--no number and no volume in brewer2010means
+Warning--no number and no volume in diamond1998optimal
+Warning--page numbers missing in dynan2004rich
+Warning--empty note in liebman2002should
+Warning--no number and no volume in vickrey1939averaging
+You've used 20 entries,
+            2905 wiz_defined-function locations,
+            739 strings with 7943 characters,
+and the built_in function-call counts, 13119 in all, are:
+= -- 1134
+> -- 929
+< -- 1
++ -- 276
+- -- 330
+* -- 1123
+:= -- 2424
+add.period$ -- 59
+call.type$ -- 20
+change.case$ -- 142
+chr.to.int$ -- 20
+cite$ -- 25
+duplicate$ -- 341
+empty$ -- 792
+format.name$ -- 382
+if$ -- 2401
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 14
+newline$ -- 116
+num.names$ -- 200
+pop$ -- 83
+preamble$ -- 1
+purify$ -- 258
+quote$ -- 0
+skip$ -- 387
+stack$ -- 0
+substring$ -- 662
+swap$ -- 104
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 400
+warning$ -- 5
+while$ -- 203
+width$ -- 0
+write$ -- 285
+(There were 5 warnings)

@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: cohabiting_couples.aux
+The style file: chicagoa.bst
+Database file #1: cohabiting_couples.bib
+Warning--no number and no volume in apedo2017
+Warning--page numbers missing in apedo2017
+Warning--no number and no volume in baland2017intra
+Warning--no number and no volume in browning1998efficient
+Warning--page numbers missing in cherchye2015noncooperative
+Warning--no journal in costemalle2017donnees
+Warning--no number and no volume in costemalle2017donnees
+Warning--page numbers missing in costemalle2017donnees
+Warning--no number and no volume in d2018enlarging
+Warning--no volume for landais2004quotient
+Warning--page numbers missing in landais2004quotient
+Warning--page numbers missing in lundberg1997husbands
+Warning--no number and no volume in naidoo2015power
+Warning--page numbers missing in naidoo2015power
+You've used 33 entries,
+            2905 wiz_defined-function locations,
+            814 strings with 10366 characters,
+and the built_in function-call counts, 22605 in all, are:
+= -- 1962
+> -- 1537
+< -- 3
++ -- 450
+- -- 536
+* -- 2006
+:= -- 4065
+add.period$ -- 100
+call.type$ -- 33
+change.case$ -- 231
+chr.to.int$ -- 33
+cite$ -- 47
+duplicate$ -- 600
+empty$ -- 1427
+format.name$ -- 620
+if$ -- 4195
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 32
+newline$ -- 197
+num.names$ -- 330
+pop$ -- 141
+preamble$ -- 1
+purify$ -- 428
+quote$ -- 0
+skip$ -- 644
+stack$ -- 0
+substring$ -- 1298
+swap$ -- 200
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 660
+warning$ -- 14
+while$ -- 343
+width$ -- 0
+write$ -- 468
+(There were 14 warnings)

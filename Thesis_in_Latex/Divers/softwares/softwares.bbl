@@ -1,0 +1,63 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Ben~Jelloul and Schaff}{Ben~Jelloul and
+  Schaff}{2012}]{openfisca}
+Ben~Jelloul, M. and C.~Schaff (2012).
+\newblock Openfisca.
+\newblock \url{https://github.com/openfisca}.
+
+\bibitem[\protect\citeauthoryear{Hamano and Torvalds}{Hamano and
+  Torvalds}{2005}]{hamano2005git}
+Hamano, J. and L.~Torvalds (2005).
+\newblock Git-fast version control system.
+
+\bibitem[\protect\citeauthoryear{Hunter}{Hunter}{2007}]{hunter2007matplotlib}
+Hunter, J.~D. (2007).
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in science \& engineering\/}~{\em 9\/}(3), 90.
+
+
+\bibitem[\protect\citeauthoryear{Kluyver, Ragan-Kelley, P{\'e}rez, Granger,
+  Bussonnier, Frederic, Kelley, Hamrick, Grout, Corlay, et~al.}{Kluyver
+  et~al.}{2016}]{kluyver2016jupyter}
+Kluyver, T., B.~Ragan-Kelley, F.~P{\'e}rez, B.~E. Granger, M.~Bussonnier,
+  J.~Frederic, K.~Kelley, J.~B. Hamrick, J.~Grout, S.~Corlay, et~al. (2016).
+\newblock Jupyter notebooks-a publishing format for reproducible computational
+  workflows.
+\newblock In {\em ELPUB}, pp.\  87--90.
+
+\bibitem[\protect\citeauthoryear{Lamport}{Lamport}{1994}]{lamport1994latex}
+Lamport, L. (1994).
+\newblock {\em LATEX: a document preparation system: user's guide and reference
+  manual}.
+\newblock Addison-wesley.
+
+
+\bibitem[\protect\citeauthoryear{McKinney}{McKinney}{2011}]{mckinney2011pandas}
+McKinney, W. (2011).
+\newblock pandas: a foundational python library for data analysis and
+  statistics.
+\newblock {\em Python for High Performance and Scientific Computing\/}~{\em
+  14}.
+
+
+\bibitem[\protect\citeauthoryear{Rossum}{Rossum}{1995}]{Rossum1995}
+Rossum, G. (1995).
+\newblock Python reference manual.
+\newblock Technical report, Amsterdam, The Netherlands, The Netherlands.
+
+\bibitem[\protect\citeauthoryear{Seabold and Perktold}{Seabold and
+  Perktold}{2010}]{seabold2010statsmodels}
+Seabold, S. and J.~Perktold (2010).
+\newblock Statsmodels: Econometric and statistical modeling with python.
+\newblock In {\em Proceedings of the 9th Python in Science Conference},
+  Volume~57, pp.\ ~61. Scipy.
+
+\bibitem[\protect\citeauthoryear{Van Der~Walt, Colbert, and Varoquaux}{Van
+  Der~Walt et~al.}{2011}]{van2011numpy}
+Van Der~Walt, S., S.~C. Colbert, and G.~Varoquaux (2011).
+\newblock The numpy array: a structure for efficient numerical computation.
+\newblock {\em Computing in Science \& Engineering\/}~{\em 13\/}(2), 22.
+
+
+\end{thebibliography}

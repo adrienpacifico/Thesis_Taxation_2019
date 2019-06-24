@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Commandes perso            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\alp}{\texorpdfstring{\ensuremath{\upalpha}\xspace}{alpha }}
+\newcommand{\bet}{\texorpdfstring{\ensuremath{\upbeta}\xspace}{b\'{e}ta }}
+\newcommand{\alpbet}{\texorpdfstring{\ensuremath{\upalpha-\upbeta}\xspace}{alpha-b\'{e}ta}}
+\newcommand{\alpt}{\ensuremath{\alpha_2}\xspace}
+\newcommand{\strt}{\gls{strt}\xspace}
+
+
+% Divers
+\newcommand{\FRA}{$\text{FRA}$ }
+\newcommand{\MR}{$\text{MR}$ }
+
+
+% Tenseur des déformation cylindrique
+\newcommand{\epsrr}{\ensuremath{\varepsilon_{rr}}\xspace}
+\newcommand{\epstt}{\ensuremath{\varepsilon_{\theta\theta}}\xspace}
+\newcommand{\epszz}{\ensuremath{\varepsilon_{zz}}\xspace}
+\newcommand{\epsrt}{\ensuremath{\varepsilon_{r\theta}}\xspace}
+\newcommand{\epstz}{\ensuremath{\varepsilon_{\theta z}}\xspace}
+\newcommand{\epszr}{\ensuremath{\varepsilon_{zr}}\xspace}
+
+\newcommand{\matlab}{\textsc{Matlab}\texttrademark\xspace}
+
+
+
+%% Figures centrées, et en position 'here, top, bottom or page'
+\newenvironment{figureth}{
+		\begin{figure}[htbp]
+			\centering
+	}{
+		\end{figure}
+		}
+		
+		
+%% Tableaux centrés, et en position 'here, top, bottom or page'
+\newenvironment{tableth}{
+		\begin{table}[htbp]
+			\centering
+			%\rowcolors{1}{coleurtableau}{coleurtableau}
+	}{
+		\end{table}
+		}
+
+%% Sous-figures centrées, en position 'top'		
+\newenvironment{subfigureth}[1]{
+	\begin{subfigure}[t]{#1}
+	\centering
+}{
+	\end{subfigure}
+}
+
+\newcommand{\citationChap}[2]{
+	\epigraph{\og \textit{#1} \fg{}}{#2}
+}
+
+% Macro pour crÃ©er une figure (avec notes optionnelles) dans le corps du texte %
+\newenvironment{fig}[4][1]{
+\begin{figure}[!ht]
+	\begin{center}
+	\begin{minipage}{14cm}
+		\caption{#2}
+	\end{minipage}
+	\end{center}
+	\begin{center}
+	\begin{minipage}{#1}
+	\begin{center}#3
+	\end{center}
+	\end{minipage}
+	\if!#4!\empty \else \\
+	\begin{scriptsize}
+	\begin{minipage}{#1}\vspace{0.2cm} \par #4
+	\end{minipage}
+	\end{scriptsize} \fi }
+	{\end{center}
+\end{figure}}
+
+% Macro d'inclusion de graphiques pdf %
+\newcommand{\graphique}[2][1]{\begin{minipage}{\linewidth}\begin{center}\includegraphics[width=#1\linewidth,clip]{Figures/#2}\end{center}\end{minipage}}
+
+
+% Macro pour crÃ©er un tableau (avec notes optionnelles) %
+\newenvironment{tab}[4][1]
+{\def\TMP{#3}\newdimen\TMPsize\settowidth{\TMPsize}{\TMP}
+\begin{table}[!ht]
+\begin{center}
+\begin{minipage}{14cm}
+\caption{#2}
+\end{minipage}
+\end{center}
+\begin{center}
+\begin{minipage}{#1}
+\resizebox{\textwidth}{!}{#3}
+\end{minipage}
+\if!#4!\empty \else \\
+\begin{scriptsize}
+\begin{minipage}{#1}\vspace{0.2cm} \par #4
+\end{minipage}
+\end{scriptsize} \fi }
+{\end{center}
+\end{table}}
+
+%%%%% Pour prendre en compte les commandes \tightlist issues des conversions makdown à Latex de pandoc
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
